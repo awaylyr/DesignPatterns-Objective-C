@@ -84,6 +84,7 @@
 		24B2B0841A067DB1001D74E0 /* BuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B0831A067DB1001D74E0 /* BuilderTests.m */; };
 		24BD698A1A4477170007D525 /* PrototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD69891A4477170007D525 /* PrototypeTests.m */; };
 		24D9588419FE99B800C3F23E /* StateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D9588319FE99B800C3F23E /* StateTests.m */; };
+		E84408501DDDE88500D24026 /* 单元测试笔记 in Resources */ = {isa = PBXBuildFile; fileRef = E844084F1DDDE88500D24026 /* 单元测试笔记 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -242,6 +243,7 @@
 		24B2B0831A067DB1001D74E0 /* BuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuilderTests.m; sourceTree = "<group>"; };
 		24BD69891A4477170007D525 /* PrototypeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrototypeTests.m; sourceTree = "<group>"; };
 		24D9588319FE99B800C3F23E /* StateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateTests.m; sourceTree = "<group>"; };
+		E844084F1DDDE88500D24026 /* 单元测试笔记 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "单元测试笔记"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -582,6 +584,7 @@
 				2467F55D19F3A1E200437073 /* FactoryMethod */,
 				2467F54B19F3813100437073 /* SimpleFactory */,
 				2467F52B19F37ED900437073 /* Supporting Files */,
+				E844084F1DDDE88500D24026 /* 单元测试笔记 */,
 			);
 			path = DesignPatternsTests;
 			sourceTree = "<group>";
@@ -752,6 +755,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E84408501DDDE88500D24026 /* 单元测试笔记 in Resources */,
 				2467F52F19F37ED900437073 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
