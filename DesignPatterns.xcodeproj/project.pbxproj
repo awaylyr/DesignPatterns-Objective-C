@@ -85,6 +85,8 @@
 		24BD698A1A4477170007D525 /* PrototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD69891A4477170007D525 /* PrototypeTests.m */; };
 		24D9588419FE99B800C3F23E /* StateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D9588319FE99B800C3F23E /* StateTests.m */; };
 		E84408501DDDE88500D24026 /* 单元测试笔记 in Resources */ = {isa = PBXBuildFile; fileRef = E844084F1DDDE88500D24026 /* 单元测试笔记 */; };
+		E84408541DDDF37200D24026 /* 创建型设计模式 in Resources */ = {isa = PBXBuildFile; fileRef = E84408531DDDF37200D24026 /* 创建型设计模式 */; };
+		E84408561DDDF5BC00D24026 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E84408551DDDF5BC00D24026 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -244,6 +246,8 @@
 		24BD69891A4477170007D525 /* PrototypeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrototypeTests.m; sourceTree = "<group>"; };
 		24D9588319FE99B800C3F23E /* StateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateTests.m; sourceTree = "<group>"; };
 		E844084F1DDDE88500D24026 /* 单元测试笔记 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "单元测试笔记"; sourceTree = "<group>"; };
+		E84408531DDDF37200D24026 /* 创建型设计模式 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "创建型设计模式"; sourceTree = "<group>"; };
+		E84408551DDDF5BC00D24026 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -507,6 +511,7 @@
 		2467F4FF19F37ED800437073 = {
 			isa = PBXGroup;
 			children = (
+				E84408551DDDF5BC00D24026 /* README.md */,
 				2467F51119F37ED800437073 /* DesignPatterns */,
 				2467F52A19F37ED900437073 /* DesignPatternsTests */,
 				2467F50A19F37ED800437073 /* Frameworks */,
@@ -537,6 +542,7 @@
 		2467F51119F37ED800437073 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				E84408531DDDF37200D24026 /* 创建型设计模式 */,
 				245CB3CA1BF8A28C0006D277 /* AbstractFactory */,
 				245CB3DF1BF8A28C0006D277 /* Bridge */,
 				245CB3EB1BF8A28C0006D277 /* Builder */,
@@ -571,20 +577,20 @@
 		2467F52A19F37ED900437073 /* DesignPatternsTests */ = {
 			isa = PBXGroup;
 			children = (
+				E844084F1DDDE88500D24026 /* 单元测试笔记 */,
+				2407155519F3EB9100E9F749 /* AbstractFactory */,
+				24B2B0651A066AF1001D74E0 /* Bridge */,
+				24B2B0821A067DA0001D74E0 /* Builder */,
+				24926FD31A432717006E188B /* Facade */,
+				2467F55D19F3A1E200437073 /* FactoryMethod */,
 				24BD69861A44762C0007D525 /* Prototype */,
 				2406AAEF1A433A7D00B2A359 /* Proxy */,
-				24926FD31A432717006E188B /* Facade */,
+				2467F54B19F3813100437073 /* SimpleFactory */,
 				2437B0451A089ABA007CE0EF /* Singleton */,
-				24B2B0821A067DA0001D74E0 /* Builder */,
-				24B2B0651A066AF1001D74E0 /* Bridge */,
-				24B2B04E1A060A0C001D74E0 /* TemplateMethod */,
 				24D9588219FE99A900C3F23E /* State */,
 				2491E15D19F7F074009AC42F /* Strategy */,
-				2407155519F3EB9100E9F749 /* AbstractFactory */,
-				2467F55D19F3A1E200437073 /* FactoryMethod */,
-				2467F54B19F3813100437073 /* SimpleFactory */,
 				2467F52B19F37ED900437073 /* Supporting Files */,
-				E844084F1DDDE88500D24026 /* 单元测试笔记 */,
+				24B2B04E1A060A0C001D74E0 /* TemplateMethod */,
 			);
 			path = DesignPatternsTests;
 			sourceTree = "<group>";
@@ -747,6 +753,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2467F51619F37ED800437073 /* InfoPlist.strings in Resources */,
+				E84408541DDDF37200D24026 /* 创建型设计模式 in Resources */,
 				2467F51E19F37ED800437073 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -818,6 +825,7 @@
 				245CB45F1BF8A28C0006D277 /* Realty1.m in Sources */,
 				245CB45A1BF8A28C0006D277 /* PersonDirector.m in Sources */,
 				245CB4741BF8A28C0006D277 /* Singleton.m in Sources */,
+				E84408561DDDF5BC00D24026 /* README.md in Sources */,
 				245CB45D1BF8A28C0006D277 /* Fund.m in Sources */,
 				245CB47F1BF8A28C0006D277 /* CashReturn.m in Sources */,
 				245CB4751BF8A28C0006D277 /* AfternoonState.m in Sources */,
